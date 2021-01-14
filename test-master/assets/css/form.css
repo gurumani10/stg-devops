@@ -1,0 +1,120 @@
+/* FORM STYLE INITIALIZATION */
+.enterpriseform .field-wrapper {}
+.enterpriseform .field {background: #fff; border: 1px solid #777; margin-bottom: 1.2em;  padding: .4em .5em;}
+.enterpriseform .field > .inner {position: relative;}
+.enterpriseform .actions .field {background: none; border: 0; padding: 0; text-align: center;}
+.enterpriseform .field-wrapper[data-field-type="checkbox"] .field,
+.enterpriseform .field-wrapper[data-field-type="radios"] .field {background: none; border: 0; padding: 0;}
+.enterpriseform .step:first-child {display: block;}
+.enterpriseform .step {background: none; border: 0; -khtml-border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; display: none; margin: 0; padding: 0; top: 0;}
+.enterpriseform .step > legend {background: none; border: 0; -khtml-border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; color: inherit; display: block;  float: none; font-family: inherit; left: 0; line-height: 1em; margin: 0; -webkit-padding-start:0; -webkit-padding-end:0; padding: 0; position: relative; text-indent: 0; text-shadow: none; top: 0; width: auto;}
+.enterpriseform .step.current {display: block;}
+.enterpriseform .step:first-of-type .laststep{display: none;}
+.enterpriseform .step:last-of-type .nextstep{display: none;}
+.enterpriseform label {color: #333; display: block; font-weight: bold; margin-bottom: .5em;}
+.enterpriseform label.error {color: #A51E25; font-size: .8em; font-style: italic; line-height: 1em; margin-bottom: .3em; margin-top: -1.3em;}
+.enterpriseform .option label,
+.enterpriseform .option label {display: inline; margin-left: 4px; vertical-align: middle;}
+.enterpriseform .actions {background: none; border:0; clear: both; padding: 0;}
+.enterpriseform .placeholder {bottom:0; display: none; left: 0; margin-bottom: 0; overflow: hidden; position: absolute; right:0; top:0; white-space:nowrap; z-index: 0;}
+.enterpriseform input[type=email],
+.enterpriseform input[type=number],
+.enterpriseform input[type=tel],
+.enterpriseform input[type=text],
+.enterpriseform select,
+.enterpriseform textarea {-moz-appearance: none; -webkit-appearance: none; appearance:none; border:0; display: block; margin:0; outline: none!important; padding: 0; position: relative; max-width: 100%; width:100%; z-index: 1; }
+.enterpriseform input,
+.enterpriseform select,
+.enterpriseform textarea {-webkit-padding-after: 0px; -webkit-padding-before: 0px; -webkit-padding-end: 0px; -webkit-padding-start: 0px; -webkit-margin-after: 0px; -webkit-margin-before: 0px; -webkit-margin-end: 0px; -webkit-margin-start: 0px;}
+.enterpriseform input[type=checkbox],
+.enterpriseform input[type=radio] {padding: 0; margin: 0; vertical-align: middle;}
+.enterpriseform input[type=number] {-moz-appearance:textfield; -webkit-appearance: textfield; appearance: textfield;}
+.enterpriseform input[type=number]::-webkit-inner-spin-button,
+.enterpriseform input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0;}
+.enterpriseform .placeholder,
+.enterpriseform input,
+.enterpriseform select {font-family: inherit; font-size: 1em; font-weight: normal; height: 1.4em;  line-height: 1.4em; }
+.enterpriseform textarea {font-family: inherit; font-size: 1em; font-weight: normal; height: 4.2em; letter-spacing: 0px; line-height: 1.4em;}
+.enterpriseform select {line-height: 1.3em;}
+.enterpriseform [data-field-type="select"] .inner:after {content: '\25bc'; display: block; font-size: .85em; line-height: 1em; margin-top: -.5em; position: absolute; top: 50%; right: 0;}
+.enterpriseform .placeholder-show input,
+.enterpriseform .placeholder-show textarea,
+.enterpriseform .placeholder-show select { background: transparent!important; }
+.enterpriseform .placeholder-show .placeholder { display:block; }
+.enterpriseform .placeholder-show select {color: #888;}
+.enterpriseform .placeholder {color: #888;}
+.enterpriseform ::-webkit-input-placeholder {color: #888; line-height: 1.4em;}
+.enterpriseform :-moz-placeholder {color: #888; line-height: 1.4em; opacity: 1;}
+.enterpriseform ::-moz-placeholder {color: #888; line-height: 1.4em; opacity: 1;}
+.enterpriseform :-ms-input-placeholder {color: #888; line-height: 1.4em;}
+.enterpriseform :focus::-webkit-input-placeholder {color: #333;}
+.enterpriseform :focus:-moz-placeholder {color: #333;}
+.enterpriseform :focus::-moz-placeholder {color: #333;}
+.enterpriseform :focus:-ms-input-placeholder {color: #333;}
+.enterpriseform input:focus,
+.enterpriseform select:focus,
+.enterpriseform input:focus + .placeholder {background:transparent; color: #333; outline: none!important;}
+.enterpriseform select:focus optgroup,
+.enterpriseform select:focus option {color: #000;}
+.enterpriseform select:focus {width: auto\9; max-width: 350px\9; min-width: 100%\9;}
+/* .enterpriseform select::-ms-value {background: transparent!important; color: #000;} .enterpriseform select:focus::-ms-value {background: transparent!important; color: #333;} */
+
+
+
+/* EASY CUSTOMIZATION */
+/* - field wrapper styles (not typically needed) */
+.enterpriseform .field-wrapper {}
+/* - field styles */
+.enterpriseform .field {border: 1px solid #777; font-size: 1em; margin-bottom: 17px;  padding: .4em .5em;}
+/* - field background color */
+.enterpriseform .field,
+.enterpriseform input[type=email],
+.enterpriseform input[type=number],
+.enterpriseform input[type=tel],
+.enterpriseform input[type=text],
+.enterpriseform select,
+.enterpriseform textarea {background: #fff; line-height: 30px; min-height: 30px;}
+/* - field placeholder colors */
+.enterpriseform .placeholder-show select    {color: #888; line-height: 30px;}
+.enterpriseform .placeholder                {color: #888; line-height: 30px;}
+.enterpriseform ::-webkit-input-placeholder {color: #888; line-height: 30px;}
+.enterpriseform :-moz-placeholder           {color: #888; line-height: 30px;}
+.enterpriseform ::-moz-placeholder          {color: #888; line-height: 30px;}
+.enterpriseform :-ms-input-placeholder      {color: #888; line-height: 30px;}
+/* - field focus colors */
+.enterpriseform :focus::-webkit-input-placeholder   {color: #333;}
+.enterpriseform :focus:-moz-placeholder             {color: #333;}
+.enterpriseform :focus::-moz-placeholder            {color: #333;}
+.enterpriseform :focus:-ms-input-placeholder        {color: #333;}
+.enterpriseform input:focus, .enterpriseform select:focus,
+.enterpriseform input:focus + .placeholder          {color: #333;}
+/* - label color */
+.enterpriseform label {color: #333;}
+.enterpriseform label.error {color: #A51E25;}
+/* - action styles (next step, previous step, submit) */
+.enterpriseform .actions {}
+.enterpriseform .actions button {}
+.enterpriseform .actions[data-field-name="submit"]
+.enterpriseform .actions #submit {}
+.enterpriseform .actions.formnav {}
+.enterpriseform .formnav .field.next {}
+.enterpriseform .formnav .field.back {}
+.enterpriseform .formnav button.nextstep {}
+.enterpriseform .formnav button.laststep {}
+/* - steps style */
+.enterpriseform .step > legend {}
+/* - other */
+.enterpriseform .privacypolicy {}
+.enterpriseform .disclaimer {}
+.enterpriseform .actions .field { background: #ffc72c; }
+
+@media all and (max-width: 767px){
+	.enterpriseform .field,
+	.enterpriseform input[type=email],
+	.enterpriseform input[type=number],
+	.enterpriseform input[type=tel],
+	.enterpriseform input[type=text],
+	.enterpriseform input,
+	.enterpriseform select,
+	.enterpriseform textarea {font-size: 16px !important;}
+}

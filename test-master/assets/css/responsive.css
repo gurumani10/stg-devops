@@ -1,0 +1,272 @@
+
+@media all and (min-width: 768px) and (max-width: 1000px){
+	#page-content article
+	{
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 0px !important;
+	}
+	#page-header > .content, #page-navigation > .content, #page-content > .content, #page-feature > .content, #page-footer > .content, .lower .content
+	{
+		width: 100%;
+	}
+	.video_sec iframe {
+	    width: 540px;
+	    height: 300px;
+	}
+	.location_sec .content
+	{
+		text-align: center;
+	}
+	.location {
+	    width: 47%;
+	    min-height: 540px;
+	    margin-bottom: 20px;
+	}
+	.location p
+	{
+		text-align: left;
+	}
+	.slides .content
+	{
+		width: 100%;
+	}
+	#requestinfo {
+    	width: 340px;
+	}
+	#requestinfo header {
+	    height: 57px;
+	    font-size: 36px;
+	}
+	.banner_text {
+	    font-size: 40px;
+	    padding-right: 340px;
+	    padding-left: 10px;
+	    margin-top: -220px;
+	    line-height: 43px;
+	}
+	article h1
+	{
+		padding-right: 0;
+	}
+	h1 {
+	    font-size: 41px;
+	}
+}
+@media all and (min-width: 1001px) and (max-width: 1200px){
+	#page-header > .content, #page-navigation > .content, #page-content > .content, #page-feature > .content, #page-footer > .content, .lower .content
+	{
+		width: 1000px;
+	}
+	#page-content article
+	{
+		width: 640px;
+	}
+	.location_sec .content
+	{
+		padding:20px 0px;
+	}
+	.location 
+	{
+    	width: 31.5%;
+    	min-height: 590px;
+	}
+}
+@media all and (max-width: 767px){
+	#page-header > .content, #page-navigation > .content, #page-content > .content, #page-feature > .content, #page-footer > .content, .lower .content
+	{
+		width: 100%;
+		max-width: 360px;
+		box-sizing: border-box;
+		margin: 0 auto;
+	}
+	#page-header {
+	    padding-top: 7px;
+	    box-sizing: border-box;
+	}
+	#page-header .sitelogo
+	{
+		width: 240px;
+	}
+	#page-content article
+	{
+		width: 100%;
+		margin-top: 0px !important;
+		padding: 20px 10px;
+	}
+	.video_sec iframe {
+	    width: 90%;
+	    height: 250px;
+	    margin: 75px 0;
+	}
+	.lower .content {
+	    padding: 20px 5px;
+	    margin: 0px auto;
+	    box-sizing: border-box;
+	}
+	.location {
+    	width: 100%;
+    	margin: 0px 0 20px 0;
+    }
+    #page-navigation-mobile
+    {
+    	display: none;
+    }
+    #page-feature
+    {
+    	display: block;
+    	min-height: auto !important;
+    }
+    #page-header .phonenumber
+    {
+    	display: block;
+    }
+    .cta, .number
+    {
+    	display: none;
+    }
+    .phonenumber a {
+	    width: 45px;
+	    float: right;
+	}
+	#page-header address.phonenumber {
+	    padding-top: 29px;
+	}
+    .phonenumber a span.callnow
+    {
+    	display: none;
+    	font-size: 18px;
+    }
+    #page-feature .default
+    {
+    	min-height: 220px;
+    	margin-top: 16px;
+    }
+    #enterpriseform
+    {
+    }
+    #requestinfo
+    {
+    	margin-top: 0px;
+    }
+    #requestinfo > .content
+    {
+    	padding:0px;
+    }
+    .location_sec {
+	    padding: 10px 0;
+    }
+    #page-footer
+    {
+    	height: auto;
+    	padding-bottom: 20px;
+    }
+    #page-footer p {
+    	padding: 0px 10px;
+    }
+    .half_border
+	{
+		display: block;
+		width: 50%;
+		border-bottom: 4px solid #000;
+	}
+	article h2 span
+	{
+		border-bottom: 0px;
+	}
+	article h2
+	{
+		position: relative;
+	}
+	article h2 span:after
+	{
+	  padding:0;margin:0;display:block;/* not really needed */
+	  content: "";
+	  width:50%;
+	  height:4px;
+	  background-color:#000;
+	  position: absolute;
+	  left: 0;
+      top: 55px;
+	}
+	#page-feature .slides
+	{
+		display: none;
+	}
+	#page-feature > .content
+	{
+		max-width: 100%;
+	}
+	#requestinfo > .content
+	{
+		width: 100%;
+		max-width: 360px;
+		margin: 0 auto;
+	}
+	#page-header {
+	    position: relative;
+	    top: 0px;
+	    right: 0px;
+	    left: 0px;
+	    width: 100%;
+	    float: left;
+	}
+	#page-header .sitelogo {
+	    background: url(../images/logo_mobile.jpg) center center no-repeat;
+	    display: block;
+	    float: left;
+	    height: 94px;
+	    width: 265px;
+	} 
+	#requestinfo > header {
+	    padding: 15px 0 0; 
+	    font-size: 38px;
+	}
+	.phonenumber a
+	{
+		background: url(../images/icon_phone_mob.png) 0px 0px no-repeat;
+	}
+	.phonenumber span
+	{
+		display: none;
+	}
+	address.phonenumber {
+	    padding-top: 30px;
+	}
+	article h1 {
+		padding-right: 0px;
+		font-size: 35px;
+	}
+	article p {
+	    font-size: 18px;
+	    line-height: 25px;
+	}
+	.accordion_sec {
+	    padding: 40px 0;
+	}
+	h1 {
+	    font-size: 46px;
+	}
+	.lower .accordion_sec h2 {
+    	font-size: 31px;
+    }
+    .lower .accordion_sec h3{
+    	font-size: 28px;
+    }
+    .acc_content
+    {
+    	padding-left: 26px;
+    }
+    .mobile_show
+	{
+		display: block;
+	}
+	.thankyou #page-content article
+	{
+		min-height:420px ;
+		padding: 80px 10px;
+	}
+	#requestinfo {
+	    border: 0;
+	}
+}
